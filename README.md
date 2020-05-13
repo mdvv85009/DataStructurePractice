@@ -1,3 +1,3 @@
-# DataStructurePractice
+## DataStructurePractice
 
-## [2020/5/13] Array - OK
+### [2020/5/13] Array - OK
