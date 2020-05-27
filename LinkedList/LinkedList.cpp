@@ -22,3 +22,12 @@ void linkedlist_delete(node* head, node* oldNode){
     preNode -> next = oldNode -> next;
     free(oldNode);
 }
+
+void linkedlist_print(node* head){
+    node* node = head;
+    while(node){
+        cout << node -> data;
+        cout << endl;
+        node = node -> next;
+    }
+}
